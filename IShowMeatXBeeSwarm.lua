@@ -43,7 +43,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Constr
 end)
 
 local Tab = Window:NewTab("ScriptFarm")
-local AutofarmSection = Tab:NewSection("Script By. MacroV3")
+local AutofarmSection = Tab:NewSection("Script By.FunClub")
 AutofarmSection:NewLabel("ใส่ Key:FanumTaxed")
 AutofarmSection:NewButton("loadscript", "โหลดสคริป autofarm", function()
     loadstring(game:HttpGet("https://www.macrov2-script.xyz/macrov3.lua"))()
